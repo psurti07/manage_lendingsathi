@@ -12,7 +12,7 @@
                             <label>Sms Portal</label>
                             <select class="form-select" name="portal" id="portal">
                                 <option value="">Choose Portal</option>
-                                <option value="self">Self Apply</option>
+                                {{-- <option value="self">Self Apply</option> --}}
                                 <option value="hire">Hire Agent</option>
                             </select>
                         </div>
