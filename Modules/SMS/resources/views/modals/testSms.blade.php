@@ -12,7 +12,7 @@
                             <label>Sms Portal</label>
                             <select class="form-select" name="portal" id="portal">
                                 <option value="">Choose Portal</option>
-                                <option value="self">Self Apply</option>
+                                {{-- <option value="self">Self Apply</option> --}}
                                 <option value="hire">Hire Agent</option>
                             </select>
                         </div>
@@ -20,16 +20,24 @@
                             <label>Sender Id's</label>
                             <div class="form-check-size rtl-input">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input me-2" id="inlineRadio1" type="radio" name="senderid" value="MNYSFI" checked="">
-                                    <label class="form-check-label" for="inlineRadio1">MNYSFI</label>
+                                    <input class="form-check-input me-2" id="inlineRadio1" type="radio" name="senderid" value="LNDSAT" checked="">
+                                    <label class="form-check-label" for="inlineRadio1">LNDSAT</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input me-2" id="inlineRadio2" type="radio" name="senderid" value="MONYSF">
-                                    <label class="form-check-label" for="inlineRadio2">MONYSF</label>
+                                    <input class="form-check-input me-2" id="inlineRadio2" type="radio" name="senderid" value="LENSAH">
+                                    <label class="form-check-label" for="inlineRadio2">LENSAH</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input me-2" id="inlineRadio3" type="radio" name="senderid" value="MOSMFI">
-                                    <label class="form-check-label" for="inlineRadio3">MOSMFI</label>
+                                    <input class="form-check-input me-2" id="inlineRadio3" type="radio" name="senderid" value="LNDSTI">
+                                    <label class="form-check-label" for="inlineRadio3">LNDSTI</label>
+                                </div>
+                                 <div class="form-check form-check-inline">
+                                    <input class="form-check-input me-2" id="inlineRadio4" type="radio" name="senderid" value="LENSTH">
+                                    <label class="form-check-label" for="inlineRadio4">LENSTH</label>
+                                </div>
+                                 <div class="form-check form-check-inline">
+                                    <input class="form-check-input me-2" id="inlineRadio5" type="radio" name="senderid" value="LENDST">
+                                    <label class="form-check-label" for="inlineRadio5">LENDST</label>
                                 </div>
                             </div>
                         </div>
