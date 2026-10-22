@@ -1,0 +1,8 @@
+[12-Jun-2026 21:23:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lendings/manage.lendingsathi.com/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lendings/manage.lendingsathi.com/config/mail.php on line 16
+[26-Jun-2026 15:12:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lendings/manage.lendingsathi.com/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lendings/manage.lendingsathi.com/config/mail.php on line 16

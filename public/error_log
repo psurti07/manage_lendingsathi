@@ -1,0 +1,5 @@
+[01-Jun-2026 12:26:34 UTC] PHP Warning:  require(/home/lendings/manage.lendingsathi.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/lendings/manage.lendingsathi.com/public/index.php on line 34
+[01-Jun-2026 12:26:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/lendings/manage.lendingsathi.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/lendings/manage.lendingsathi.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/lendings/manage.lendingsathi.com/public/index.php on line 34
